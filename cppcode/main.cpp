@@ -32,10 +32,8 @@ void cross(string A, string B, vector<string> &out)
 int main()
 {
 	vector<string> squares;
-	cross(rows,cols,squares);
-	for(int i = 0; i < squares.size(); i++)
-	{
-		cout << squares[i] << " ";
-	}
+	cross(rows,cols,squares); //these are all our tile coordinates
+
+
 	return 0;
 }
