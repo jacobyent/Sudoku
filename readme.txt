@@ -1,0 +1,2 @@
+This is a sudoku solver that should be able to solve every valid sudoku puzzle. This project is a copy of Peter Norvig's implmentation of the problem. His essay and code can be found here: norvig.com/sudoku.html 
+His code was written in python while mine will be written in c++. The point of all this is for me to practice writing larger projects in c++ and to get more familiar with constraint propagation and search.
