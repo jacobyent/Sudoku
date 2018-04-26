@@ -78,7 +78,7 @@ void out_put_unitlist(vector<vector<string>> &unitlist)
 		cout << endl;
 	}
 }
-
+void build_units(
 int main()
 {
 	//these are all our tile coordinates
@@ -89,6 +89,11 @@ int main()
 	vector<vector<string>> unitlist;
 	build_unitlist(unitlist);
 
-	
+	//these are rows, cols, and houses for each tile
+	map<string,string[]> units;
+	build_units();
+
+	//these are the peers for each tile
+		
 	return 0;
 }
