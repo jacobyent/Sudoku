@@ -31,6 +31,7 @@ void cross(string A, string B, vector<string> &out)
 }
 void build_unitlist(vector<vector<string>> &unitlist)
 {
+	//temp variables for building our strings and list 
 	string temp_str;
 	vector<string> temp_vec;
 	
@@ -78,7 +79,16 @@ void out_put_unitlist(vector<vector<string>> &unitlist)
 		cout << endl;
 	}
 }
-void build_units(
+void build_units(vector<vector<string>> &unitlist, vector<string> &squares, map<string,vector<string> &units)
+{
+	//function to build a dictionary for the rows, cols, and hous
+	
+	
+	for(int i = 0; i < squares.size(); i++)
+	{
+		for(int j = 0; j < 
+	}
+}
 int main()
 {
 	//these are all our tile coordinates
@@ -91,7 +101,7 @@ int main()
 
 	//these are rows, cols, and houses for each tile
 	map<string,string[]> units;
-	build_units();
+	build_units(unitlist,squares,units);
 
 	//these are the peers for each tile
 		

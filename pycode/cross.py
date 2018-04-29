@@ -14,3 +14,4 @@ units = dict((s, [u for u in unitlist if s in u]) for s in squares)
 
 peers = dict((s,set(sum(units[s],[]))-set([s])) for s in squares)
 
+print(units['A1'][1])
